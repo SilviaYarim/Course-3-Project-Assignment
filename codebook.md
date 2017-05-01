@@ -21,6 +21,7 @@ activity = activity that was performed by each person “subject”
 (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
 
 and 79 measurements:
+
  [3] "tBodyAcc.mean...X"               "tBodyAcc.mean...Y"              
  [5] "tBodyAcc.mean...Z"               "tBodyAcc.std...X"               
  [7] "tBodyAcc.std...Y"                "tBodyAcc.std...Z"               
