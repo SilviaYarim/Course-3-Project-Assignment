@@ -14,6 +14,7 @@ The file tidy.txt contains 81 variables and 180 observations that shows the aver
 of each variable for each activity and each subject.
 
 subject = ID of each person or subject
+
 activity = activity that was performed by each person “subject”
 (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
 
