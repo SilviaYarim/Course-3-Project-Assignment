@@ -12,10 +12,12 @@ The objective of this project is to create one R script called run_analysis.R th
 
 #Data Sets
 1.- The following link must be download and unzip the file to access to the file: UCI HAR Dataset where are all files:
-https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip.
+
+2.- In the script run_analysis.R are the instructions to download the files and set the working directory.
 
 #Files in this Repository
-1. R scrip called run_analysis.R (which need package reshape2 to use melt and dcast function).
+1. R script called run_analysis.R (which need package reshape2 to use melt and dcast function).
 2. A .txt file where tidy data that shows the average of each variable for each activity and each subject.
 3. A code book where all variables are describe and overall of the transformations performed as well.
 
