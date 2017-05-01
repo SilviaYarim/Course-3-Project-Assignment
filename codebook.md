@@ -66,9 +66,15 @@ and 79 measurements:
 TRANSFORMATIONS:
 
 1.- From the file feature only the measurements of the mean and std deviation were extracted and the names variables of this measurement were stored in object ext_feature.names.
+
 2.- The columns of file X_test.txt, y_test.txt and subject_test.txt were merge with function cbind as test_df.
-3.- 2.- The columns of file X_train.txt, y_train.txt and subject_train.txt were merge with function cbind as train_df.
+
+3.- The columns of file X_train.txt, y_train.txt and subject_train.txt were merge with function cbind as train_df.
+
 4.- test and train rows (test_df and train_df) were merge using rbind function and store this new data frame in an object called df.
+
 5.- Column names were given to df data set with function colnames(df) c(“subject","activity",ext_feature.names).
+
 6.- Data set df was melt so that each row has its unique id-subject that represents to each person that perform the experiment.
+
 7.- Then with dcast function we get the mean of each variable for each activity and each person.
