@@ -1,6 +1,7 @@
 
 
 OVERALL INFORMATION:
+
 The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. 
 
 Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. 
@@ -10,6 +11,7 @@ Using its embedded accelerometer and gyroscope, 3-axial linear acceleration and 
 The obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data. 
 
 DESCRIBE VARIABLES:
+
 The file tidy.txt contains 81 variables and 180 observations that shows the average
 of each variable for each activity and each subject.
 
@@ -61,6 +63,7 @@ and 79 measurements:
 [81] "fBodyBodyGyroJerkMag.meanFreq.."
 
 TRANSFORMATIONS:
+
 1.- From the file feature only the measurements of the mean and std deviation were extracted and the names variables of this measurement were stored in object ext_feature.names.
 2.- The columns of file X_test.txt, y_test.txt and subject_test.txt were merge with function cbind as test_df.
 3.- 2.- The columns of file X_train.txt, y_train.txt and subject_train.txt were merge with function cbind as train_df.
