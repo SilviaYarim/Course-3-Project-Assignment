@@ -57,6 +57,7 @@ df.mean <- dcast(df.melt, subject + activity ~ variable, mean)
 ##Save data of df.mean in file "tidy.txt" which will be stored in your working directory
 write.table(df.mean,"tidy.txt", row.names = FALSE,quote = FALSE)
 
+##Read file tidy.txt
 tidy_df <- read.table("tidy.txt",header = TRUE)
 
 
